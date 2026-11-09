@@ -1,0 +1,27 @@
+# Dependency folders (sangat raksasa, wajib di-exclude)
+node_modules/
+jspm_packages/
+
+# Next.js build logs and outputs
+.next/
+out/
+
+# Production build
+build/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local environment variables (file rahasia berisi password/API key)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
